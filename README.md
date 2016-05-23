@@ -2,29 +2,31 @@
 MVP-Instagram-PhotoFinder
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
-  Instagram-PhotoFinder
+  > Instagram-PhotoFinder
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
-
+  > For all consumers to be able to search for photos from Instagram by tagname.
+  
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > This will be a simple single page application that will allow anyone to retrieve photos from Instagram by searching
+  > by tagname. There will not be any need for the user to sign in with Instagram. Results will be displayed
+  > on the page almost instantaneously.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > A simple website people can visit to find photos by tagname on Instagram.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
-
+  > This product will be built using Angular and the Instagram API. It will only be one page and there will
+  > be a search box where users can enter their desired tagname.
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > "Build only what the customer wants"
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Look up Angular documentation to learn how to build web apps. Then, register your app with the Instagram
+  > API to obtain access to their API. Read their docs on how to search for certain queries and incorporate them into your app.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "When I saw how easy it was to find photos, I immediately recommended this app to all my friends!"
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > Head over to the link posted above to find the app online.
