@@ -1,0 +1,23 @@
+{
+  "name": "Instagram-PhotoFinder",
+  "homepage": "https://github.com/cruz02148/mvp",
+  "authors": [
+    "cruz02148 <cruz02148@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "NONE",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.5",
+    "angular-route": "~1.5.5",
+    "angular-mocks": "~1.5.5",
+    "bootstrap": "^3.3.6"
+  }
+}
