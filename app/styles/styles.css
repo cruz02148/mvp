@@ -1,3 +1,7 @@
 .search-bar input {
   max-width: 500px;
 }
+
+.btn-lg {
+  max-width: 300px;
+}

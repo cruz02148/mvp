@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='app'>
   <head>
     <title>My First App!</title>
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/styles.css">  
   </head>
-  <body ng-app='app'>
+  <body ng-controller='PhotoController'>
     <h1>Photo Finder</h1>
     <div class="search-bar">
       <input type="text"
-      ng-model="search" no-model-options="{ debounce: 1000 }" placeholder="Enter your tag name">      
+      ng-model="search" ng-model-options="{ debounce: 1000 }" placeholder="Enter your tag name">      
     </div>
     
-    <div class="photos">
-      
+    <div class="photo-layout">
+      <div class="photo" ng-repeat='photo in photos'>
+        <img src="{{ photo.images.standard_resolution.url }}"/>
+      </div>
     </div>
-  
+      
     <script src="../bower_components/angular/angular.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
+  
