@@ -6,15 +6,19 @@
     <link rel="stylesheet" href="styles/styles.css">  
   </head>
   <body ng-controller='PhotoController'>
-    <h1>Photo Finder</h1>
-    <div class="search-bar">
-      <input type="text"
-      ng-model="search" ng-model-options="{ debounce: 1000 }" placeholder="Enter your tag name">      
-    </div>
+    <header>
+      <h1 class="text-center">Photo Finder</h1>
+        <form class="form-horizontal">
+          <div class="form-group text-center">
+            <input type="text"
+            ng-model="search" ng-model-options="{ debounce: 1000 }" placeholder="Enter your tag name">      
+          </div>
+        </form>
+    </header>
     
     <div class="photo-layout">
       <div class="photo" ng-repeat='photo in photos'>
-        <img src="{{ photo.images.standard_resolution.url }}"/>
+        <img src="{{ photo.images.standard_resolution.url }}" class="img-rounded"/>
       </div>
     </div>
       

@@ -24,7 +24,6 @@ angular.module('app', [])
   var photos = [];
   
   var getPhotos = function (tagName) {
-    console.log('hit');
     return $http({
       method: 'GET',
       url:  'https://api.instagram.com/v1/tags/' + tagName + 

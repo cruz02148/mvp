@@ -1,7 +1,25 @@
-.search-bar input {
-  max-width: 500px;
+.photo {
+  display: inline-block;
+  margin-right: 60px;
+  margin-bottom: 60px;
 }
 
-.btn-lg {
-  max-width: 300px;
+img {
+  width: 400px;
+}
+
+header {
+  margin-bottom: 66px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+input {
+  width: 300px;
+}
+
+body {
+  background-image: url('http://files.snackwebsites.net.s3.amazonaws.com/sites/7cj4ij1q/photos/dhfri3k4-980x2000');
 }
